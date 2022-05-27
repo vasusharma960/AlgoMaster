@@ -1,0 +1,211 @@
+@media (min-width: 375px) {
+
+
+
+  /**
+   * HOME
+   */
+
+  .home-right .icon-1 { top: 250px; }
+
+  .home-right .icon-2 {
+    display: block;
+    top:  370px;
+    right: 50px;
+  }
+
+  .home-right .icon-3 {
+    display: block;
+    top: 450px;
+    left:  0;
+  }
+
+  .home-right .icon-4 {
+    width: 60px;
+    top:  150px;
+    right: 50px;
+  }
+
+
+
+
+
+
+@media (min-width: 575px) {
+
+  /**
+   * VARIABLE
+   */
+
+  :root { --px: 40px; }
+
+
+
+  /**
+   * HOME
+   */
+
+  .home .shape-1 img { width: 100px; }
+
+  .home .shape-3 img { width: 250px; }
+
+
+
+
+@media (min-width: 767px) {
+
+  /**
+   * VARIABLE
+   */
+
+  :root {
+
+    --fs-1: 60px;
+    --fs-2: 50px;
+    --fs-7: 20px;
+
+    --px: 60px;
+
+  }
+
+
+
+
+@media (min-width: 850px) {
+
+  /**
+   * #VARIABLE
+   */
+
+  :root { --px: 140px; }
+
+}
+
+
+
+
+
+@media (min-width: 992px) {
+
+  /**
+   * #VARIABLE
+   */
+
+  :root {
+
+    --fs-5: 16px;
+
+    --px: 30px;
+    --py: 120px;
+
+  }
+
+
+
+  /**
+   * #HEADER
+   */
+
+
+  .navbar-nav {
+    background: transparent;
+    position: static;
+    box-shadow: none;
+    padding: 0;
+    opacity: 1;
+    transform: scale(1);
+    pointer-events: all;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .nav-item:not(:last-child) a {
+    border-bottom: none;
+  }
+
+  .nav-toggle-btn {
+    display: none;
+  }
+
+  .navbar .btn {
+    display: block;
+  }
+
+
+
+  /**
+   * #HOME
+   */
+
+  .home::before {
+    top:  -100px;
+    left: -300px;
+  }
+
+  .home::after {
+    top: 0;
+  }
+
+  .home-left {
+    margin-bottom: 0;
+  }
+
+  .home .section-subtitle,
+  .main-heading,
+  .home .section-text { text-align: left; }
+
+  .home .section-text { margin: 0 0 30px; }
+
+  .home-btn-group { justify-content: start; }
+
+  /**
+   * #COURSE
+   */
+
+  .course { position: relative; }
+
+  .course-grid {
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 0;
+  }
+
+
+
+
+
+@media (min-width: 1200px) {
+
+  /**
+   * #VARIABLE
+   */
+
+  :root {
+
+    --fs-1: 70px;
+    --fs-2: 55px;
+    --fs-3: 40px;
+    --fs-4: 25px;
+    --fs-7: 22px;
+
+    --px: 120px;
+
+  }
+
+
+
+  /**
+   * #HOME
+   */
+
+  .home-left { padding-bottom: var(--py); }
+
+  .home .section-text { font-size: 18px; }
+
+
+
+  /**
+   * #CATEGORY
+   */
+
+  .category .course-item-group { grid-template-columns: repeat(3, 1fr); }

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./assets/css/astyles.css">
+    <title>AlgoMaster</title>
+  </head>
+  <body>
+    <div class="container">
+
+      <header>
+        <div class="navbar-brand">
+          <img src="./assets/images/prograd.png" alt="Logo">
+        </div>
+
+        <h1>Algorithms</h1>
+
+        <a href="index.html">
+          <p>Home</p>
+        </a>
+
+      </header>
+
+      <div class="side-pane">
+        <h2 style="margin-right:45%;">Sorting</h2>
+        <ul>
+          <li>
+            <button onclick="selection()" class="nav-buttons" type="button" name="button">Selection Sort</button>
+          </li>
+          <li>
+            <button onclick="bubble()" class="nav-buttons" type="button" name="button">Bubble Sort</button>
+          </li>
+          <li>
+            <button onclick="insertion()" class="nav-buttons" type="button" name="button">Insertion Sort</button>
+          </li>
+          <li>
+            <button onclick="heapify()" class="nav-buttons" type="button" name="button">Heap Sort</button>
+          </li>
+          <li>
+            <button onclick="mer()" class="nav-buttons" type="button" name="button">Merge Sort</button>
+          </li>
+          <li>
+            <button onclick="quicky()" class="nav-buttons" type="button" name="button">Quick Sort</button>
+          </li>
+        </ul>
+      </div>
+
+      <div id="algorithm">
+
+      </div>
+
+      <div class="main-container">
+
+        <div class="box" id="array-box0">0</div>
+        <div class="box" id="array-box1">1</div>
+        <div class="box" id="array-box2">2</div>
+        <div class="box" id="array-box3">3</div>
+        <div class="box" id="array-box4">4</div>
+        <div class="box" id="array-box5">5</div>
+        <div class="box" id="array-box6">6</div>
+        <div class="box" id="array-box7">7</div>
+        <div class="box" id="array-box8">8</div>
+        <div class="box" id="array-box9">9</div>
+
+        <br>
+
+        <button class="btng" onclick="generateRandom()" type="button" name="button">Generate Random Array</button>
+        <button class="btns" onclick="Sort()" type="button" name="button">Sort</button>
+
+      </div>
+
+
+
+    </div>
+
+    <script src="./assets/js/sorting.js">
+
+    </script>
+
+  </body>
+</html>

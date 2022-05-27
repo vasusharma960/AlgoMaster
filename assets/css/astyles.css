@@ -1,0 +1,124 @@
+body {
+  background-color: #DBEAFF;
+  margin: 0;
+  text-align: center;
+}
+
+header {
+  position: absolute;
+  width: 100%;
+  height: 12%;
+  display: flex;
+  justify-content: space-around;
+}
+
+header a {
+  padding: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #0A0097;
+  text-decoration: none;
+}
+
+header a:hover {
+  color: #4B8EFF;
+}
+
+.home-btn {
+  display: inline;
+  margin: 0;
+  top: 0;
+}
+
+.side-pane {
+  background-color: #ABCDFF;
+  margin-top: 10%;
+  position: fixed;
+  width: 15%;
+  height: 90%;
+  display: block;
+}
+
+.main-container {
+  position: fixed;
+  height: 85%;
+  width: 85%;
+  margin-left: 15%;
+  margin-top: 15%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.main-container > div {
+  padding: 3px;
+  border: 2px solid black;
+  margin: 3px;
+  height: 5%;
+  width: 5%;
+  font-size: 2rem;
+  display: flex;
+}
+
+#algorithm {
+  position: fixed;
+  margin-left: 15%;
+  margin-top: 9%;
+  width: 85%;
+  height: 50%;
+}
+
+object {
+  width: 100%;
+  height: 100%;
+}
+
+.btng {
+  position: absolute;
+  margin-bottom: -10%;
+  margin-left: -20%;
+  display: flex;
+  font-size: 1.5rem;
+}
+
+.btns {
+  position: absolute;
+  margin-bottom: -10%;
+  margin-left: 10%;
+  display: block;
+  font-size: 1.5rem;
+}
+
+.nav-buttons {
+  margin-bottom: 5px;
+  font-size: 1rem;
+  background-color: transparent;
+  border: 0;
+}
+
+ul {
+  list-style: none;
+  text-align: justify;
+}
+
+.nav-buttons:hover {
+  cursor: pointer;
+  color: #6E90FF;
+}
+
+.pointer1{
+	background-color: #FF4D6B;
+}
+
+.pointer2 {
+	background-color: #F9FF90;
+}
+.pointer3 {
+	background-color: #7CFF92;
+}
+
+.sorted {
+	background-color: skyblue;
+}
