@@ -3,6 +3,7 @@ let nums;
 var navbuttons = document.querySelectorAll(".nav-buttons");
 let ar = [0, 0, 0, 0, 0, 0];
 
+
 for(let i = 0; i < 6; i++){
   navbuttons[i].addEventListener("click", function(event) {
     ar = [0, 0, 0, 0, 0, 0];
@@ -347,7 +348,7 @@ async function sorter(l, r) {
 }
 
 function selection(){
-  document.getElementById("algorithm").innerHTML = "<object data='./assets/text/selectionSort.txt'></h1>";
+  document.getElementById("algorithm").innerHTML = "<object id='info' data='./assets/text/selectionSort.txt'></h1>";
 }
 
 function bubble(){
